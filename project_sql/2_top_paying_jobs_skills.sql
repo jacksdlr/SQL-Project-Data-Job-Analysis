@@ -31,7 +31,7 @@ SELECT
     top_jobs.*,
     -- comment this out if counting
     skills AS skill_name
-    /* , COUNT(job_id) AS jobs_count */
+    /* , COUNT(top_jobs.job_id) AS jobs_count */
 FROM
     top_jobs
     INNER JOIN skills_job_dim ON skills_job_dim.job_id = top_jobs.job_id
