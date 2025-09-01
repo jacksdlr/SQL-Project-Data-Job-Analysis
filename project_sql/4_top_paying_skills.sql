@@ -14,8 +14,13 @@ FROM
 WHERE
     job_title_short = 'Data Analyst'
     AND salary_year_avg IS NOT NULL
-    /* AND (job_work_from_home = TRUE OR job_location = 'United Kingdom') */
+    AND (
+        job_work_from_home = TRUE
+        OR job_location = 'United Kingdom'
+    )
 GROUP BY
     skill_name
 ORDER BY
     average_yearly_salary DESC
+LIMIT
+    25
