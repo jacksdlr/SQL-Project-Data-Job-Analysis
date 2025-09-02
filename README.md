@@ -57,7 +57,7 @@ This simple query returned some interesting results indicating:
 - Top end positions settle at around $200,000, suggesting significant earning potential in the field
 - One job offers a full-time position at $650,000, most likely an outlier in the data, with the full job title simply being "Data Analyst" whereas most others in this list are "Director" or "Principal" roles
 
-![Top 10 Highest Paying Data Analyst Jobs](assets\1_top_paying_jobs.png)
+![Top 10 Highest Paying Data Analyst Jobs](assets/1_top_paying_jobs.png)
 _Bar graph visualising the average yearly salary for the top 10 data analyst roles worldwide_
 
 ### 2. Desired Skills For Top Paying Jobs
@@ -104,7 +104,7 @@ ORDER BY
 - Python and Tableau follow closely behind with the majority of jobs desiring these skills, suggesting generalist languages and tools don't lose favour out to specialised libraries or other skills even further into a data analyst career
 - A number of skills only have one or two job postings in the top 10, showing each role most likely provides a unique experience using different tools and skills
 
-![Most Desired Skills For The Top 10 Data Analyst Jobs](assets\2_top_paying_jobs_skills.png)
+![Most Desired Skills For The Top 10 Data Analyst Jobs](assets/2_top_paying_jobs_skills.png)
 _A graph to show all listed skills desired for the top 10 highest paying data analyst jobs and how many of those jobs want each one_
 
 ### 3. Most Desired Skills For Data Analyst Roles
@@ -137,7 +137,7 @@ Both graphs look nearly identical with the same key features:
 - Likewise, Excel leads the way for spreadsheet manipulation and may have some hand in how data is visualised amongst these roles
 - Programming and data visualisation skills such as Python, Tableau, and Power BI are also essential skills, showing the importance of technical skills in data storytelling and decision support
 
-![Most In-Demand Data Analyst Skills Remote/UK & Worldwide](assets\3_top_demanded_skills.png)
+![Most In-Demand Data Analyst Skills Remote/UK & Worldwide](assets/3_top_demanded_skills.png)
 _Two bar graphs showing the top 5 most commonly desired skills for data analyst remote or UK roles (top) and roles worldwide (bottom)_
 
 ### 4. Highest Paying Skills
@@ -171,12 +171,12 @@ LIMIT
 - Software development & deployment proficiency: knowledge in development and deployment tools (GitLab, Kubernetes, Airflow) indicates a lucrative crossover between data analysis and engineering, with a premium on skills that facilitate automation and efficient data pipeline management
 - Cloud computing expertise: familiarity with cloud and data engineering tools (Elasticsearch, Databricks, GCP) underlines the growing importance of cloud-based analytics environments, suggesting that cloud proficiency significantly boosts earning potential in data analytics
 
-![Top 25 Highest Paying Skills](assets\4_top_paying_skills.png)
+![Top 25 Highest Paying Skills](assets/4_top_paying_skills.png)
 _A visualisation of the highest average yearly salary offered for skills in data analyst roles_
 
 ### 5. Most Optimal Skills To Learn
 
-This query took two CTEs to look at job counts and average salaries respectively for skills demanded in data analyst roles, then joined to provide information on what are the best skills to learn based on both how many jobs look for these skills are their earning potential. Seperate CTEs were used as I wanted to include jobs that did not specify a salary in the count whilst removing them for finding the average salary. A combined, shortened, version of this query can be [found here](project_sql\5_optimal_skills.sql).
+This query took two CTEs to look at job counts and average salaries respectively for skills demanded in data analyst roles, then joined to provide information on what are the best skills to learn based on both how many jobs look for these skills are their earning potential. Seperate CTEs were used as I wanted to include jobs that did not specify a salary in the count whilst removing them for finding the average salary. A combined, shortened, version of this query can be [found here](project_sql/5_optimal_skills.sql).
 
 ```sql
 WITH skills_demand AS (
@@ -232,7 +232,7 @@ LIMIT
 - Whilst the number of jobs requesting skills ranges from around 400 to over 8000, the average yearly salary trends consistently around $100,000 - this indicates that it is most beneficial to learn most of these top 6 skills as they can be applied to most roles in the field
 - Once again, SQL leads the way with by far the highest job count but also a projected salary very close to the averaging trend of these top 25, making this potentially **THE** skill to learn for aspiring data analysts
 
-![Optimal Data Analyst Skills To Learn](assets\5_optimal_skills.png)
+![Optimal Data Analyst Skills To Learn](assets/5_optimal_skills.png)
 _A combo bar and line graph to show the most in-demand data analyst skills and their respective average yearly salary_
 
 # Conclusion
