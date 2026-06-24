@@ -4,6 +4,10 @@ A dive into the data science job market using data scraped from multiple job pos
 
 For all SQL queries, check them out here: [project_sql folder](/project_sql/). You can also check some other practice queries here: [practice_problems.sql](/practice_problems.sql).
 
+# Visualisation
+
+Whilst this project primarily focuses in SQL skills, you can also find an Excel file in root folder (Data Science Jobs Dashboard.xlsx) visualising the data in an easy-to-use styled dashboard.
+
 # Background
 
 In an effort to improve my skills with SQL using relevant real-world data, this project was undertaken to navigate the data analyst job market more effectively and drive insight into figuring out the best path to take and skills to learn for a career in data anayltics, streamlining an efficient route in the market.
