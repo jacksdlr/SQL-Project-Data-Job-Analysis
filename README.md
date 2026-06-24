@@ -6,7 +6,7 @@ For all SQL queries, check them out here: [project_sql folder](/project_sql/). Y
 
 # Visualisation
 
-Whilst this project primarily focuses in SQL skills, you can also find an Excel file in root folder (Data Science Jobs Dashboard.xlsx) visualising the data in an easy-to-use styled dashboard.
+Whilst this project primarily focuses on SQL skills, you can also find an Excel file in the root folder (Data Science Jobs Dashboard.xlsx) visualising the data in an easy-to-use styled dashboard.
 
 # Background
 
